@@ -1,0 +1,50 @@
+@media only screen and (max-width:768px) {
+    #main {
+        flex-direction: column;
+
+    }
+
+    .left-side {
+        left: 0;
+        top: 50px;
+        justify-content: center;
+    }
+
+
+    .side-right {
+        right: 0;
+        padding-right: 100px !important;
+
+
+    }
+
+    .side-right h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .side-right {
+        margin: 0 50px;
+
+    }
+
+    .side-right {
+        right: 0;
+        padding: 50px 20px !important;
+
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    form input, textarea {
+
+        font-size: 0.6rem;
+    }
+
+    form input[type=submit] {
+        font-size: 0.9rem;
+    }
+}
